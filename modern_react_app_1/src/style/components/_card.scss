@@ -1,0 +1,44 @@
+.card {
+  //   border: 0.2rem solid #999;
+  border-radius: 0.7rem;
+  box-shadow: 0 1rem 2rem rgba($color: #000, $alpha: 0.3);
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  .card__profile {
+  }
+
+  .card__image-box {
+    margin: 1rem;
+  }
+
+  .card__image {
+  }
+
+  .card__text {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .card__title {
+    font-size: 2rem;
+  }
+
+  .card__social-handle {
+    font-size: 1.25rem;
+  }
+
+  .card__description {
+    font-size: 1.6rem;
+  }
+
+  &:hover {
+    transform: translateY(-1rem) scale(1.05);
+    box-shadow: 0 1.5rem 2rem rgba($color: #000, $alpha: 0.5);
+  }
+  &:active {
+    transform: translateY(0rem) scale(1);
+    box-shadow: 0 1rem 2rem rgba($color: #000, $alpha: 0.3);
+  }
+}
