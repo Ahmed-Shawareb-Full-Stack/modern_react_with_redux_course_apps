@@ -1,0 +1,19 @@
+.animal {
+  width: 30%;
+  font-size: inherit;
+  position: relative;
+  &__image {
+    display: inline-block;
+    width: 100%;
+  }
+  &:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+
+.heart {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
